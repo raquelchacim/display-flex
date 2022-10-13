@@ -3,11 +3,14 @@
   padding: 16px;
   height: 500px;
   width: 90%;
+  display: flex;
 }
 
 .height {
   height: 300px;
   width: 100px;
+  display: flex;
+  flex-direction: row;
 }
 
 .left {
@@ -22,6 +25,7 @@
   background-color: lightgreen;
   padding: 4px;
   flex: 1;
+  justify-content: space-between;
 }
 
 body {
